@@ -1,0 +1,247 @@
+.titulo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  }
+  
+  div svg{
+    height: 100px;
+    width: 80px;
+    margin-top: -50px;
+  
+  }
+
+  .card{
+    background: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+  }
+
+
+  .caracteristica{
+    text-align: center;
+    border-radius: 60px;
+    border:0px solid  rgb(0, 0, 0);
+    font-size: 20px;
+
+
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .caracteristica1{
+    background: rgb(0, 229, 255);
+    border:2px solid  rgb(71, 202, 202);
+    margin-top: -15px;
+    }
+
+    .caracteristica h1{
+      margin-top: -1px;
+    }
+
+ 
+footer{
+  width: 100%;
+  background: #011d3c;
+  color: rgb(71, 202, 202);  
+  margin-top: -10px;
+  
+}
+
+.container-footer-all{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.colum1{
+  max-width: 400px;
+}
+.colum1 h1{
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.colum1 p{
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.colum2{
+  max-width: 220px;
+}
+
+.colum2 h1{
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+  }
+
+  .row{
+       margin-top: 38px;
+  }
+
+  .row label{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+     float: right;
+     color: white;
+     font-size: 21px;
+  }
+
+  .row:hover{
+    background: #cee5f0;
+  }
+
+  .row ion-img{
+    height: 130px;
+
+  }
+ 
+.colum3{
+  max-width: 700px;
+  text-align: center;
+ 
+}
+.colum3 h1{
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.colum3 label{
+  font-size: 22px;
+  color: white;
+  margin-top: 35px;
+  max-width: 60%;
+  margin-left: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.row2{
+  display: flex;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 700px){
+
+    .colum2{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .colum3{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  .row2{
+    margin-top: 20px;
+  }
+
+}
+
+.row2 ion-img{
+  height: 120px;
+}
+
+
+.colum2,
+  .colum3,
+  .container-footer-all{
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+.equipotrabajo{
+  background: rgb(0, 0, 0);;
+  border-radius: 50px;
+  border:2px solid  rgb(71, 202, 202);
+  border-right: #C7C7C7;
+  border-left: #C7C7C7;
+  color: rgb(71, 202, 202);;
+  font-size: 30px;
+ 
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.container-footer{
+  background: black;
+}
+
+.copyright{
+  color: #C7C7C7;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  
+
+}
+
+.copyright a{
+  text-decoration: none;
+  color: #02a7fa;
+  font-size: 30px;
+  font-weight: bold;
+
+
+}
+
+.copyright a:hover{
+
+  background: rgb(255, 255, 255);
+  
+
+}
+
+.information a{
+  text-decoration: none;
+  color: #02a7fa;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width: 1100px){
+      .container-body{
+      flex-wrap: wrap;
+      
+  }
+
+  .colum2,
+  .colum3,
+  .container-footer-all{
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+  }
+  
+   
+  .colum2,
+    .colum3,
+    .container-footer-all{
+      text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .copyright{
+     
+      font-size: 20px;
+      
+    
+    }
+  
+
+}

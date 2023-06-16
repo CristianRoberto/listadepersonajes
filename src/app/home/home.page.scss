@@ -1,0 +1,125 @@
+.titulo{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 24px;
+}
+
+div svg{
+  height: 100px;
+  width: 80px;
+  margin-top: -50px;
+
+}
+
+
+
+.hola{
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 30px;
+
+}
+@media screen and (max-width: 700px){
+  .chip{
+ width:80%;
+  
+  }
+  
+}
+
+
+.chip{
+  background-color: aqua;
+  height: 100px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px 8px rgb(255, 255, 255);
+width: 33%;
+
+}
+
+.chip:hover{
+  background-color:rgb(1, 159, 159);
+  color: rgb(255, 255, 255);
+ 
+  }
+
+  
+  .chip ion-label{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+
+  .h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+ 
+  ion-item.item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+ 
+  
+  ion-label {
+    flex-grow: 1;
+  }
+  
+  
+
+
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-top: -5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .subtitle {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+
+  
+  .name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .created {
+    font-size: 1rem;
+  }
+  
+
+  
+  .author {
+    text-align: center;
+  }
+  
+  .author img {
+    max-width: 100%;
+  }
+  
